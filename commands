@@ -1,0 +1,32 @@
+# These commands are linux based commands that we can use in Cisco IOS devices
+
+grep examples
+-------------
+show ip int br | grep up
+show run | grep route
+show run | grep line
+show run | grep unna
+
+
+uname examples
+--------------
+uname -a
+uname -o
+uname -s
+
+man uname
+
+show shell functions
+
+show run | head
+show run | tail
+
+show run > showrun.txt
+show ip route > route.txt
+
+dir
+
+
+more showrun.txt
+cat route.txt
+

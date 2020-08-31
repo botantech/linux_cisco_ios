@@ -31,3 +31,35 @@ more showrun.txt
 cat route.txt
 
 
+Usefull Commands.
+----------------
+
+to see the differences between running-config and startup-config
+
+#show archive config differences
+
+
+to resequence your existting acl's
+
+#en
+#conf t
+#ip access-list resequence <nameofacl> 10 10
+
+
+to schedule reload of the router at specific time.
+
+#reload 6:40 comment ("the reaseon for reload")
+
+to check the existing scheduled reload
+
+#show reload
+
+to cancel the scheduled reload
+
+#reload cancel
+
+
+to schedule reload at particular time 
+
+#reload at 10:00 15 aug maintenance
+
